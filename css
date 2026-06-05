@@ -1,0 +1,157 @@
+<!-- ୭★┈ ✶ ┈ 𖥔꒰ FREISCHÜTZ ꒱𖥔 ┈ ✶ ┈★୭
+┊  ┊  ┊  ┊  ┊
+┊  ┊  ┊  ┊  ✶ ₊° ⊹. ⋆࿐ ࿔*:･ﾟ
+┊  ┊  ┊. ✧ ° . • © .FOURTHKINDRED
+┊  ┊  ✫ ﾟ. VER 0.0.0  ₊ ⊹᭡ ˖ 
+┊  ✦ ₊° . ˖°.𖥔 ݁ ˖ hello world..!
+☆
+
+✦ ━━━━━━━〔 UPDATE INFO 〕━━━━━━━━ ✦
+✧ this is a new site?
+✧ im planning on theming it after the house of spiders
+✦ or something else project moon related, maybe lobotomy corporation?
+✧ either lobcorp, dantes pda, or the house of spiders
+✧ who knows i might make it into an index theme
+✦ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ✦ -->
+
+<style>
+	@font-face {
+		font-family: pictochat;
+		src: url(https://prescript.nekoweb.org/assets/fonts/NintendoDSBIOS.ttf)
+	}
+	
+	body {
+		background-image: url();
+		background-color: black;
+		background-size: cover;
+		cursor: url(https://prescript.nekoweb.org/assets/cursors/ruina/Normal%20Select.cur), default;
+	}
+	
+	a {
+		cursor: url(https://prescript.nekoweb.org/assets/cursors/ruina/Link%20Select.cur), pointer;
+		color: #5ab0d6;
+	}
+	
+	summary {
+		list-style: none;
+	}
+
+	
+	#s-m-t-tooltip {
+	border: grey 3px inset;
+	max-width: 300px;
+	z-index: 10;
+	margin: 24px 14px 7px 12px;
+	padding: 4px;
+	color: black;
+	font-family: pictochat;
+	font-size: 18px;
+	background-image: linear-gradient(#70a9c2, #34728c);
+	}
+	
+	.rien1 {
+		height: 100%;
+	}
+	
+	.disclaimer {
+		border: white 2px solid;
+		position: fixed;
+		left: 390px;
+		top: 65px;
+		width: 600px;
+		height: 550px;
+	}
+	
+	#disclaimer-text {
+		padding: 10px;
+		height: 430px;
+		font-family: pictochat;
+		font-size: 20px;
+		overflow-y: scroll;
+		color: white;
+	}
+	
+	#disclaimer-text::-webkit-scrollbar {
+		display: none;
+	}
+	
+	#enter {
+		position: fixed;
+		bottom: 98px;
+		left: 830px;
+		color: white;
+		font-size: 20px;
+	}
+	
+	#enter a {
+		text-decoration: none;
+	}
+	
+	#enter a:hover {
+		text-decoration-line: underline;
+		text-decoration-style: dotted;
+	}
+	
+	.navbar {
+		border: white 2px solid;
+		position: fixed;
+		right: 320px;
+		top: 65px;
+		width: 180px;
+		color: white;
+		font-family: pictochat;
+		font-size: 20px;
+		padding-right: 5px;
+		padding-left: 10px;
+	}
+	
+	.navbar a {
+		text-decoration: none;
+	}
+	
+	#navbar-text {
+		
+	}
+	
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="https://static.tumblr.com/lspzyz3/xloqk6cgp/jquery.style-my-tooltips.js"></script>
+
+<script>
+	(function($){
+							$(document).ready(function(){
+							$("[title]").style_my_tooltips({
+							tip_follows_cursor: true,
+							tip_delay_time:100,
+							tip_fade_speed:150,
+							attribute:"title"
+							});
+							});
+							})(jQuery);
+</script>
+
+<script>
+	function myFunction() {
+	// Get the text field
+	var copyText = document.getElementById("myInput");
+	// Copy the text inside the text field
+	navigator.clipboard.writeText(copyText.value);
+	// Alert the copied text
+	alert("Copied the text: " + copyText.value);
+	}
+</script>
+
+<head>
+	<title>
+		the index
+	</title>
+	<script>
+		let title = "in 30 minutes, find a groom or bride bonus if brunette in 90 hours, spill their insides paint your room picturesque. ";
+		setInterval(() => {
+		title = title.substring(1) + title.substring(0, 1);
+		document.title = title;
+		}, 90);
+	</script>
+	<link rel="icon" type="image/png" href="https://prescript.nekoweb.org/assets/images/icons/the%20index.png">
+</head>
